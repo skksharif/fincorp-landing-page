@@ -4,8 +4,11 @@ export const useDarkMode = () => {
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('darkMode');
-      const initialValue = JSON.parse(saved || 'false');
-      return initialValue || window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved !== null) {
+        return JSON.parse(saved);
+      }
+      // Default to light mode instead of system preference
+      return false;
     }
     return false;
   });
