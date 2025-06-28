@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDarkMode } from './hooks/useDarkMode';
 import { ScrollProgress } from './components/ScrollProgress';
-import { DarkModeToggle } from './components/DarkModeToggle';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
@@ -17,13 +16,16 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 overflow-x-hidden">
+      <ScrollProgress/>
       <Navbar isDark={isDark} toggleDarkMode={() => setIsDark(!isDark)} />
 
       {/* Main Content */}
       <main>
         <Hero />
         <Services />
-    
+        <Partners/>
+        <Statistics/>
+        <About/>
         <ContactForm />
       </main>
 

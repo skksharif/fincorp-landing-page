@@ -101,7 +101,7 @@ export const Services: React.FC = () => {
 
   return (
     <section id="services" ref={sectionRef} className="py-20 bg-white dark:bg-gray-900">
-      <div className="container mx-auto px-6">
+      <div className="max-w-[1400px] container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 ref={titleRef} className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Core Services</span>
