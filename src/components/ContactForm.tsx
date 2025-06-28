@@ -67,7 +67,7 @@ export const ContactForm: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <div className="bg-white dark:bg-gray-800 p-12 rounded-2xl shadow-xl">
-              <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Send className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Thank You!</h3>
@@ -89,7 +89,7 @@ export const ContactForm: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Apply <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Now</span>
+            Apply <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-rose-600">Now</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Get pre-approved for your loan in minutes. Fill out the form below and we'll get back to you within 24 hours.
@@ -112,7 +112,7 @@ export const ContactForm: React.FC = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
+                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -127,7 +127,7 @@ export const ContactForm: React.FC = () => {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
+                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
                     placeholder="Your phone number"
                   />
                 </div>
@@ -145,7 +145,7 @@ export const ContactForm: React.FC = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
+                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -159,7 +159,7 @@ export const ContactForm: React.FC = () => {
                     required
                     value={formData.loanType}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
+                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
                   >
                     <option value="">Select loan type</option>
                     {loanTypes.map((type, index) => (
@@ -179,7 +179,7 @@ export const ContactForm: React.FC = () => {
                   rows={4}
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-300"
                   placeholder="Tell us about your requirements..."
                 />
               </div>
@@ -187,7 +187,7 @@ export const ContactForm: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-semibold py-4 px-6 rounded-lg hover:shadow-lg transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-gradient-to-r from-orange-500 to-rose-600 text-white font-semibold py-4 px-6 rounded-lg hover:shadow-lg transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <>
@@ -222,7 +222,7 @@ export const ContactForm: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-rose-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -233,7 +233,7 @@ export const ContactForm: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -245,14 +245,14 @@ export const ContactForm: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-cyan-600 to-blue-700 text-white rounded-2xl shadow-xl p-8">
+            <div className="bg-gradient-to-br from-orange-500 via-rose-600 to-pink-700 text-white rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold mb-4">Quick Call Back</h3>
-              <p className="mb-6 text-cyan-100">
+              <p className="mb-6 text-orange-100">
                 Need immediate assistance? Call us now for instant support and quick loan approval.
               </p>
               <a
                 href="tel:9299991588"
-                className="inline-flex items-center space-x-2 bg-white text-cyan-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center space-x-2 bg-white text-orange-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105"
               >
                 <Phone className="w-5 h-5" />
                 <span>Call Now</span>

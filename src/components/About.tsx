@@ -57,7 +57,7 @@ export const About: React.FC = () => {
           {/* Left Content */}
           <div ref={contentRef}>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Hari Janardhana Fin Corp</span>
+              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-pink-600">Hari Janardhana Fin Corp</span>
             </h2>
             
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
@@ -68,7 +68,7 @@ export const About: React.FC = () => {
             {/* Representative Info */}
             <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 mb-8 border border-gray-100 dark:border-gray-600">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-                <User className="w-6 h-6 mr-2 text-cyan-600" />
+                <User className="w-6 h-6 mr-2 text-orange-600" />
                 Our Representative
               </h3>
               <div className="space-y-3">
@@ -78,11 +78,11 @@ export const About: React.FC = () => {
                   <span>92 99 99 15 88</span>
                 </div>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
-                  <Mail className="w-4 h-4 mr-2 text-cyan-600" />
+                  <Mail className="w-4 h-4 mr-2 text-orange-600" />
                   <span>hjfcloans@gmail.com</span>
                 </div>
                 <div className="flex items-start text-gray-600 dark:text-gray-300">
-                  <MapPin className="w-4 h-4 mr-2 mt-1 text-cyan-600 flex-shrink-0" />
+                  <MapPin className="w-4 h-4 mr-2 mt-1 text-rose-600 flex-shrink-0" />
                   <span>#31-14-1239, 14/2 Arundelpet, Guntur</span>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export const About: React.FC = () => {
             {/* Trade Name */}
             <div className="text-center lg:text-left">
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                Trade Name: <span className="font-bold text-cyan-600 dark:text-cyan-400">FIN TODAY</span>
+                Trade Name: <span className="font-bold bg-gradient-to-r from-orange-500 to-rose-600 bg-clip-text text-transparent">FIN TODAY</span>
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ export const About: React.FC = () => {
           {/* Right Content - Features */}
           <div ref={featuresRef}>
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-              Why Choose <span className="text-cyan-600 dark:text-cyan-400">Us?</span>
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Us?</span>
             </h3>
             
             <div className="space-y-4">
@@ -115,7 +115,7 @@ export const About: React.FC = () => {
               ))}
             </div>
 
-            <div className="mt-10 p-6 bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 rounded-xl border border-cyan-100 dark:border-cyan-800">
+            <div className="mt-10 p-6 bg-gradient-to-br from-orange-50 via-rose-50 to-pink-50 dark:from-orange-900/20 dark:via-rose-900/20 dark:to-pink-900/20 rounded-xl border border-orange-100 dark:border-orange-800">
               <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Our Mission</h4>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 To make car ownership dreams come true by providing accessible, transparent, 

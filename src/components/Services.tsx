@@ -10,49 +10,57 @@ const services = [
     icon: Car,
     title: 'New & Used Car Loans',
     description: 'Up to 90% loan facility with best deals on financing',
-    features: ['Quick approval', 'Minimal documentation', 'Competitive rates']
+    features: ['Quick approval', 'Minimal documentation', 'Competitive rates'],
+    gradient: 'from-cyan-500 to-blue-600'
   },
   {
     icon: RefreshCcw,
     title: 'Refinance Clear Track',
     description: '150%-200% funding on existing loans without ownership transfer',
-    features: ['No ownership shift', 'Instant release', 'Higher funding']
+    features: ['No ownership shift', 'Instant release', 'Higher funding'],
+    gradient: 'from-orange-500 to-rose-600'
   },
   {
     icon: Home,
     title: 'Home Loans',
     description: 'Affordable home financing solutions',
-    features: ['Low interest rates', 'Flexible tenure', 'Quick processing']
+    features: ['Low interest rates', 'Flexible tenure', 'Quick processing'],
+    gradient: 'from-blue-500 to-indigo-600'
   },
   {
     icon: User,
     title: 'Personal Loans',
     description: 'Unsecured personal loans for all your needs',
-    features: ['No collateral', 'Fast approval', 'Flexible repayment']
+    features: ['No collateral', 'Fast approval', 'Flexible repayment'],
+    gradient: 'from-rose-500 to-pink-600'
   },
   {
     icon: Building2,
     title: 'Business Loans',
     description: 'Grow your business with our funding solutions',
-    features: ['Working capital', 'Equipment finance', 'Easy eligibility']
+    features: ['Working capital', 'Equipment finance', 'Easy eligibility'],
+    gradient: 'from-cyan-500 to-teal-600'
   },
   {
     icon: Shield,
     title: 'Car Insurance',
     description: 'Comprehensive car insurance coverage',
-    features: ['Third party', 'Comprehensive', 'Add-on covers']
+    features: ['Third party', 'Comprehensive', 'Add-on covers'],
+    gradient: 'from-orange-500 to-amber-600'
   },
   {
     icon: Heart,
     title: 'Health Insurance',
     description: 'Protect your family with health coverage',
-    features: ['Family floater', 'Cashless claims', 'Wide network']
+    features: ['Family floater', 'Cashless claims', 'Wide network'],
+    gradient: 'from-rose-500 to-red-600'
   },
   {
     icon: Globe,
     title: 'Online Services',
     description: 'Digital assistance for all loan processes',
-    features: ['Online application', 'Status tracking', 'Digital docs']
+    features: ['Online application', 'Status tracking', 'Digital docs'],
+    gradient: 'from-blue-500 to-purple-600'
   }
 ];
 
@@ -104,7 +112,7 @@ export const Services: React.FC = () => {
       <div className="max-w-[1400px] container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 ref={titleRef} className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Core Services</span>
+            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-rose-500 to-pink-600">Core Services</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Comprehensive financial solutions tailored to meet all your needs
@@ -120,7 +128,7 @@ export const Services: React.FC = () => {
                 ref={el => cardsRef.current[index] = el!}
                 className="group bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 dark:border-gray-600"
               >
-                <div className="w-14 h-14 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className={`w-14 h-14 bg-gradient-to-br ${service.gradient} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   <Icon className="w-7 h-7 text-white" />
                 </div>
                 
@@ -135,7 +143,7 @@ export const Services: React.FC = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                      <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full mr-2"></div>
+                      <div className="w-1.5 h-1.5 bg-gradient-to-r from-orange-400 to-rose-500 rounded-full mr-2"></div>
                       {feature}
                     </li>
                   ))}

@@ -46,14 +46,14 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-cyan-600 to-blue-700 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-rose-600 rounded-lg flex items-center justify-center">
               <span className="text-lg font-bold text-white">hj</span>
             </div>
             <div>
               <h1 className="text-lg font-bold text-gray-900 dark:text-white">
                HJ Fin Corp
               </h1>
-              <p className="text-xs text-cyan-600 dark:text-cyan-400 font-medium">
+              <p className="text-xs text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-rose-600 font-medium">
                 FIN TODAY
               </p>
             </div>
@@ -65,10 +65,10 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 font-medium transition-colors duration-300 relative group"
+                className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 font-medium transition-colors duration-300 relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-500 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
           </div>
@@ -89,7 +89,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
             {/* Apply Now Button (Desktop) */}
             <button
               onClick={() => scrollToSection('#contact')}
-              className="hidden lg:block bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-sm"
+              className="hidden lg:block bg-gradient-to-r from-orange-500 to-rose-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-sm"
             >
               Apply Now
             </button>
@@ -113,7 +113,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="block w-full text-left px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg mx-2"
+                className="block w-full text-left px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg mx-2"
               >
                 {item.name}
               </button>
@@ -130,7 +130,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
               </div>
               <button
                 onClick={() => scrollToSection('#contact')}
-                className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transition-all duration-300"
+                className="w-full bg-gradient-to-r from-orange-500 to-rose-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transition-all duration-300"
               >
                 Apply Now
               </button>

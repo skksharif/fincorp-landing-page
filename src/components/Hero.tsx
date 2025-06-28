@@ -52,8 +52,9 @@ export const Hero: React.FC = () => {
     >
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-orange-400 to-rose-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-rose-300 to-pink-400 rounded-full mix-blend-multiply filter blur-2xl opacity-10 animate-pulse delay-500"></div>
       </div>
 
       <div className="relative z-10 container max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -69,7 +70,7 @@ export const Hero: React.FC = () => {
                 Dream Car
               </span>{" "}
               Now with Up to{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-rose-600">
                 200% Funding!
               </span>
             </h1>
@@ -115,7 +116,7 @@ export const Hero: React.FC = () => {
               </button>
               <button
                 onClick={() => window.open("tel:9299991588")}
-                className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
+                className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-orange-500 to-rose-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <Phone className="w-5 h-5" />
                 <span>Contact Now</span>
@@ -147,7 +148,7 @@ export const Hero: React.FC = () => {
                 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
                   w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] 
                   lg:w-[420px] lg:h-[420px] rounded-full 
-                  bg-gradient-to-br from-cyan-400 to-blue-500 opacity-20 animate-pulse"
+                  bg-gradient-to-br from-cyan-400 via-blue-500 to-rose-400 opacity-20 animate-pulse"
               ></div>
 
               {/* Car Image */}
