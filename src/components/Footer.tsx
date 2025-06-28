@@ -71,7 +71,7 @@ export const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">92 99 99 15 88</p>
+                  <p className="font-semibold">+91 92999 91588</p>
                   <p className="text-gray-400 text-sm">Available 24/7</p>
                 </div>
               </div>

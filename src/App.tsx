@@ -22,10 +22,13 @@ function App() {
       {/* Main Content */}
       <main>
         <Hero />
-   
+        <Services />
+    
+        <ContactForm />
       </main>
 
- 
+      <Footer />
+      <BackToTop />
     </div>
   );
 }

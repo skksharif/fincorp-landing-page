@@ -216,7 +216,7 @@ export const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-300">92 99 99 15 88</p>
+                    <p className="text-gray-600 dark:text-gray-300">+91 92999 91588</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Available 24/7 for support</p>
                   </div>
                 </div>

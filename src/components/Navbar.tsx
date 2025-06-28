@@ -79,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
             <div className="hidden xl:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1 text-gray-600 dark:text-gray-300">
                 <Phone className="w-3 h-3" />
-                <span>92 99 99 15 88</span>
+                <span>+91 92999 91588</span>
               </div>
             </div>
 
@@ -122,7 +122,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleDarkMode }) => {
             <div className="px-4 py-2 space-y-3 border-t border-gray-200 dark:border-gray-700 mt-2">
               <div className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-300">
                 <Phone className="w-4 h-4" />
-                <span>92 99 99 15 88</span>
+                <span>+91 92999 91588</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-300">
                 <Mail className="w-4 h-4" />
