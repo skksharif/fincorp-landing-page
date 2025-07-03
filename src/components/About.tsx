@@ -83,7 +83,7 @@ export const About: React.FC = () => {
                 </div>
                 <div className="flex items-start text-gray-600 dark:text-gray-300">
                   <MapPin className="w-4 h-4 mr-2 mt-1 text-rose-600 flex-shrink-0" />
-                  <span>#31-14-1239, 14/2 Arundelpet, Guntur</span>
+                  <span>D.No:6-14-13/1, opp prestige service point</span>
                 </div>
               </div>
             </div>

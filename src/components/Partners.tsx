@@ -19,12 +19,12 @@ const partners = [
   { name: 'Hero FinCorp', type: 'nbfc' },
   { name: 'Poonawalla Finance', type: 'nbfc' },
   { name: 'Sundaram Finance', type: 'nbfc' },
-  { name: 'Muthoot Finance', type: 'nbfc' },
-  { name: 'Mahaveer Finance', type: 'nbfc' },
+  { name: 'SBI Bank', type: 'bank' },
+  { name: 'Bandhan Bank', type: 'bank' },
   { name: 'Piramal Finance', type: 'nbfc' },
   { name: 'Equitas SFB', type: 'nbfc' },
-  { name: 'Magma Fincorp', type: 'nbfc' },
-  { name: 'IKF Finance', type: 'nbfc' }
+  { name: 'AU Bank', type: 'bank' },
+  { name: 'Suryodhaya Small Finance Bank', type: 'bank' }
 ];
 
 export const Partners: React.FC = () => {

@@ -71,7 +71,7 @@ export const Hero: React.FC = () => {
               </span>{" "}
               Now with Up to{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-rose-600">
-                200% Funding!
+                180% Funding!
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
               {[
                 "Hassle-free Documentation",
                 "Loans Without Income Proof",
-                "Up to 200% Funding",
+                "Up to 180% Funding",
                 "Trusted by 20+ Banks & NBFCs",
               ].map((benefit, index) => (
                 <div key={index} className="flex items-center space-x-3">
