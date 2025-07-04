@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
   'Best deals on car financing',
   'Loans with or without income proof',
-  'Up to 200% funding on existing loans',
+  'Up to 180% on BT TOPUP',
   'Hassle-free refinance options',
   'Minimal documentation required',
   'No vehicle ownership transfer needed',
@@ -83,7 +83,7 @@ export const About: React.FC = () => {
                 </div>
                 <div className="flex items-start text-gray-600 dark:text-gray-300">
                   <MapPin className="w-4 h-4 mr-2 mt-1 text-rose-600 flex-shrink-0" />
-                  <span>D.No:6-14-13/1, opp prestige service point</span>
+                  <span>D.No:6-14-13/1, opp prestige service point, Arundalpet, Guntur, AP-522002</span>
                 </div>
               </div>
             </div>

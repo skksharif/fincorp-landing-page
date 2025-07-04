@@ -238,7 +238,7 @@ export const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Address</h4>
-                    <p className="text-gray-600 dark:text-gray-300">D.No:6-14-13/1, opp prestige service point</p>
+                    <p className="text-gray-600 dark:text-gray-300">D.No:6-14-13/1, opp prestige service point, Arundalpet, Guntur, AP-522002</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Visit us for personalized service</p>
                   </div>
                 </div>
